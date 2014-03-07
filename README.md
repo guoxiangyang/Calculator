@@ -19,6 +19,7 @@ Usage
     var myexpr = new Calc("1+2");
     console.log(myexpr.calc());
 ```
+
 2. Calc with simple object parameters
 
 ```javascript
@@ -97,3 +98,40 @@ Usage
     };
     console.log(myexpr.calc(obj));
 ```
+
+Operator Support
+================
+
+```text
+        '(' 
+        ')' 
+        '.' 
+        '^' 
+        '*' 
+        '%' 
+        '/' 
+        '+' 
+        '-' 
+        '-n'
+        '=='
+        '!='
+        '>' 
+        '<' 
+        '>='
+        '<='
+        '@' 
+        '&&',
+        '||'
+        'in'
+```
+
+Data Type Support
+=================
+
+* int
+* float
+* string
+* bool
+* array
+* object
+* undefine
