@@ -3,9 +3,11 @@ Calculator
 
 A nodejs calculator module
 
-!!! this module is not tested, don't use in serious  project. !!!
+!!! this module is totally not tested, don't use in serious  project. !!!
 
-goodluck!
+Pull request welcome.
+
+goodluck && have fun.
 
 
 Usage
