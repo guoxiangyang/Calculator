@@ -1,0 +1,57 @@
+bash-3.2$ ls
+LightTable		cis			downloader		libmaple		maple-bootloader	nodePPT
+NodeOS			cis.v0			ethercard		life			mongodb			sphinx
+UDP Test Tool.pdf	cis.v1			expr			lime			ng			t
+arduino			docker			ino			localweb		node			t.ai
+bash-3.2$ git clone https://github.com/guoxiangyang/Calculator
+Cloning into 'Calculator'...
+remote: Counting objects: 3, done.        
+remote: Compressing objects: 100% (2/2), done.        
+remote: Total 3 (delta 0), reused 0 (delta 0)        
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done
+bash-3.2$ pwd
+/Users/gxy/src
+bash-3.2$ cd test
+bash: cd: test: No such file or directory
+bash-3.2$ ls
+Calculator		cis			ethercard		lime			node
+LightTable		cis.v0			expr			localweb		nodePPT
+NodeOS			cis.v1			ino			maple-bootloader	sphinx
+UDP Test Tool.pdf	docker			libmaple		mongodb			t
+arduino			downloader		life			ng			t.ai
+bash-3.2$ cd Calculator/
+bash-3.2$ ls
+README.md	calculator.js	test
+bash-3.2$ cd test
+bash-3.2$ ls
+calc_test.js	calc_test.js~
+bash-3.2$ node calc_test.js
+200 [ '100', '200' ]
+true
+bash-3.2$ pwd
+/Users/gxy/src/Calculator/test
+bash-3.2$ node test1
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module './calculator'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/Users/gxy/src/Calculator/test/test1.js:2:12)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+bash-3.2$ node test1
+bash-3.2$ node test1
+3
+bash-3.2$ node test1
+3
+bash-3.2$ node test2
+3
+bash-3.2$ 
